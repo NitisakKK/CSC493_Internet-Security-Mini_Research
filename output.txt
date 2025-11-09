@@ -1,0 +1,13 @@
+---- www.kru.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 206
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+TotalScore: 25/100
+
