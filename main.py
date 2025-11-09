@@ -78,6 +78,8 @@ def score_tls(proto: str) -> int:
     p = (proto or "").lower()
     if "tlsv1.3" in p:
         return 20
+    if "tlsv1.2" in p:
+        return 15
     if "tlsv1.1" in p:
         return 10
     return 0
