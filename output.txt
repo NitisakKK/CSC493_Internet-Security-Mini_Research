@@ -1,6 +1,6 @@
 ---- www.kru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 191
+DaysLeft: 187
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -23,7 +23,7 @@ TotalScore: 25/100
 
 ---- www.kpru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 106
+DaysLeft: 101
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -46,7 +46,7 @@ TotalScore: 25/100
 
 ---- www.chandra.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 253
+DaysLeft: 249
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -69,7 +69,7 @@ TotalScore: 15/100
 
 ---- www.cpru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 155
+DaysLeft: 151
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -90,9 +90,9 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 40/100
 
----- www.ricr.ac.th ----
-Protocol: -
-DaysLeft: -
+---- www.crru.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 224
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -104,18 +104,18 @@ X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
+TLSScore: 20/20
+DaysLeftScore: 5/5
 CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 15/100
+TotalScore: 40/100
 
 ---- www.cmru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 31
+DaysLeft: 27
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -128,17 +128,17 @@ Set-Cookie Count: 2
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
-DaysLeftScore: 3/5
+DaysLeftScore: 1/5
 CertValidationScore: 0/20
 HSTSScore: 15/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 0/15
-TotalScore: 43/100
+TotalScore: 41/100
 
 ---- www.tru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 319
+DaysLeft: 315
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -161,7 +161,7 @@ TotalScore: 15/100
 
 ---- www.dru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 274
+DaysLeft: 270
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -184,7 +184,7 @@ TotalScore: 40/100
 
 ---- www.npru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 40
+DaysLeft: 36
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -205,11 +205,11 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
 TotalScore: 13/100
 
----- snru.ac.th ----
+---- www.snru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 192
+DaysLeft: 188
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -221,16 +221,16 @@ Set-Cookie Count: 0
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 5/5
-CertValidationScore: 10/20
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 15/15
-TotalScore: 55/100
+TotalScore: 45/100
 
 ---- www.nstru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 153
+DaysLeft: 149
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -253,7 +253,7 @@ TotalScore: 58/100
 
 ---- www.nsru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 138
+DaysLeft: 133
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -276,7 +276,7 @@ TotalScore: 63/100
 
 ---- www.bsru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 106
+DaysLeft: 101
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -299,7 +299,7 @@ TotalScore: 25/100
 
 ---- www.bru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 246
+DaysLeft: 242
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -322,7 +322,7 @@ TotalScore: 40/100
 
 ---- www.pnru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 282
+DaysLeft: 278
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -345,7 +345,7 @@ TotalScore: 20/100
 
 ---- www.aru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 140
+DaysLeft: 135
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -368,30 +368,30 @@ TotalScore: 58/100
 
 ---- www.psru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 285
+DaysLeft: 281
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
+CSP: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: ; img-src 'self' data: secure.gravatar.com www.gravatar.com; report-uri https://www.psru.ac.th/newweb2023/2023?gdsih-csp-report; (report-only)
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 2
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 5/5
 CertValidationScore: 0/20
 HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 40/100
+CSPScore: 5/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 8/15
+TotalScore: 43/100
 
 ---- www.pbru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 12
+DaysLeft: 8
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -414,7 +414,7 @@ TotalScore: 46/100
 
 ---- www.pcru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 350
+DaysLeft: 346
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -437,7 +437,7 @@ TotalScore: 25/100
 
 ---- www.pkru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 79
+DaysLeft: 74
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -460,14 +460,14 @@ TotalScore: 23/100
 
 ---- www.rmu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 154
+DaysLeft: 150
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: max-age=31536000; includeSubDomains
-CSP: default-src 'self' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' data: blob: ; form-action 'none' ; frame-ancestors 'self' ; script-src 'unsafe-eval' 'unsafe-hashes' 'report-sample'; report-uri /csp_report (report-only)
+CSP: default-src 'self'; script-src 'self'; style-src 'self'; report-uri /csp-report; (report-only)
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 4
 }
@@ -476,14 +476,14 @@ TLSScore: 20/20
 DaysLeftScore: 5/5
 CertValidationScore: 10/20
 HSTSScore: 15/15
-CSPScore: 12/20
+CSPScore: 20/20
 XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 0/15
-TotalScore: 67/100
+TotalScore: 75/100
 
 ---- yru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 36
+DaysLeft: 32
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -506,7 +506,7 @@ TotalScore: 48/100
 
 ---- www.reru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 132
+DaysLeft: 127
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -529,7 +529,7 @@ TotalScore: 58/100
 
 ---- www2.rru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 12
+DaysLeft: 8
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -552,7 +552,7 @@ TotalScore: 36/100
 
 ---- www.rbru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 190
+DaysLeft: 186
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -561,7 +561,7 @@ HTTP Security Headers : {
 HSTS: none
 CSP: none
 X-Content-Type-Options: none
-Set-Cookie Count: 0
+Set-Cookie Count: 2
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
@@ -570,12 +570,12 @@ CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 40/100
+CookieFlagsScore: 0/15
+TotalScore: 25/100
 
 ---- www.lpru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 21
+DaysLeft: 17
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -598,7 +598,7 @@ TotalScore: 11/100
 
 ---- lru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 82
+DaysLeft: 78
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -621,7 +621,7 @@ TotalScore: 68/100
 
 ---- www.vru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 210
+DaysLeft: 206
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -644,7 +644,7 @@ TotalScore: 40/100
 
 ---- www.sskru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 40
+DaysLeft: 36
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -667,7 +667,7 @@ TotalScore: 48/100
 
 ---- www.snru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 192
+DaysLeft: 188
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -690,7 +690,7 @@ TotalScore: 45/100
 
 ---- www.skru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 358
+DaysLeft: 354
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -713,7 +713,7 @@ TotalScore: 37/100
 
 ---- ssru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 287
+DaysLeft: 283
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -736,7 +736,7 @@ TotalScore: 35/100
 
 ---- sru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 17
+DaysLeft: 13
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -759,7 +759,7 @@ TotalScore: 46/100
 
 ---- www.srru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 190
+DaysLeft: 186
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -782,7 +782,7 @@ TotalScore: 40/100
 
 ---- www.mcru.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 109
+DaysLeft: 105
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -805,7 +805,7 @@ TotalScore: 40/100
 
 ---- www.udru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 269
+DaysLeft: 265
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -826,32 +826,32 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 30/100
 
----- www.udru.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 269
+---- www.uru.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 209
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
-ChainTrusted: True
+ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: none
 CSP: none
 X-Content-Type-Options: none
-Set-Cookie Count: 0
+Set-Cookie Count: 2
 }
 ---- Scoring Criteria ----
-TLSScore: 10/20
+TLSScore: 20/20
 DaysLeftScore: 5/5
 CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 30/100
+CookieFlagsScore: 0/15
+TotalScore: 25/100
 
 ---- new.ubru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 198
+DaysLeft: 194
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -874,7 +874,7 @@ TotalScore: 35/100
 
 ---- www.chula.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 64
+DaysLeft: 60
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -897,7 +897,7 @@ TotalScore: 38/100
 
 ---- www.ku.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 186
+DaysLeft: 182
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -920,7 +920,7 @@ TotalScore: 72/100
 
 ---- www.kku.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 12
+DaysLeft: 7
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -943,7 +943,7 @@ TotalScore: 56/100
 
 ---- www.cmu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 76
+DaysLeft: 72
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -966,14 +966,14 @@ TotalScore: 58/100
 
 ---- www.tsu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 184
+DaysLeft: 180
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: max-age=31536000; includeSubDomains; preload
-CSP: default-src 'self'; script-src 'self' 'nonce-3cbhQoA2qb+CJILFlPYAYg==' https://code.jquery.com https://cdn.jsdelivr.net https://gppc-app.onde.go.th https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://gppc-app.onde.go.th; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://ka-f.fontawesome.com; img-src 'self' https://www.tsu.ac.th data:; font-src 'self' https://fonts.gstatic.com https://cdnjs.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://ka-f.fontawesome.com data:;
+CSP: default-src 'self'; script-src 'self' 'nonce-xtxYZakCyJpuEvhvhA3/kg==' https://code.jquery.com https://cdn.jsdelivr.net https://gppc-app.onde.go.th https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://gppc-app.onde.go.th; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://ka-f.fontawesome.com; img-src 'self' https://www.tsu.ac.th data:; font-src 'self' https://fonts.gstatic.com https://cdnjs.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://ka-f.fontawesome.com data:;
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 0
 }
@@ -989,7 +989,7 @@ TotalScore: 80/100
 
 ---- www.kmutt.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 71
+DaysLeft: 67
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -1012,7 +1012,7 @@ TotalScore: 18/100
 
 ---- www.kmutnb.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 191
+DaysLeft: 187
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -1035,7 +1035,7 @@ TotalScore: 15/100
 
 ---- www.sut.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 186
+DaysLeft: 182
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -1058,7 +1058,7 @@ TotalScore: 15/100
 
 ---- tu.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 347
+DaysLeft: 343
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -1081,7 +1081,7 @@ TotalScore: 35/100
 
 ---- www.buu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 106
+DaysLeft: 101
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -1104,7 +1104,7 @@ TotalScore: 25/100
 
 ---- www.up.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 132
+DaysLeft: 128
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -1125,55 +1125,9 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
 TotalScore: 25/100
 
----- www.mcu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 36
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 1
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 0/15
-TotalScore: 13/100
-
----- www.mcu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 36
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 1
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 0/15
-TotalScore: 13/100
-
----- www.mbuisc.ac.th ----
+---- www.crc.up.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 71
+DaysLeft: 329
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1182,21 +1136,21 @@ HTTP Security Headers : {
 HSTS: none
 CSP: none
 X-Content-Type-Options: none
-Set-Cookie Count: 0
+Set-Cookie Count: 2
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
-DaysLeftScore: 3/5
+DaysLeftScore: 5/5
 CertValidationScore: 10/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 48/100
+CookieFlagsScore: 8/15
+TotalScore: 43/100
 
----- mrc.mbu.ac.th ----
+---- www.mcu.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 73
+DaysLeft: 32
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -1214,127 +1168,12 @@ CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 8/15
-TotalScore: 21/100
-
----- src.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 73
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 1
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 8/15
-TotalScore: 21/100
-
----- lanna.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 73
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 28/100
-
----- rec.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 73
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 28/100
-
----- www.slc.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 47
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: max-age=31536000
-CSP: none
-X-Content-Type-Options: nosniff
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 20/20
-HSTSScore: 15/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 5/5
-CookieFlagsScore: 15/15
-TotalScore: 68/100
-
----- ssc.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 73
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 28/100
+CookieFlagsScore: 0/15
+TotalScore: 13/100
 
 ---- www.mbu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 146
+DaysLeft: 142
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1355,12 +1194,12 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 8/15
 TotalScore: 58/100
 
----- ybc.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 73
+---- www.mbuisc.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 66
 SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
+HostnameMatch: True
+ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: none
@@ -1369,41 +1208,18 @@ X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
-TLSScore: 10/20
+TLSScore: 20/20
 DaysLeftScore: 3/5
-CertValidationScore: 0/20
+CertValidationScore: 10/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 28/100
-
----- ksn.mbu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 73
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 28/100
+TotalScore: 48/100
 
 ---- mahidol.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 158
+DaysLeft: 154
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -1426,7 +1242,7 @@ TotalScore: 70/100
 
 ---- www.mju.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 213
+DaysLeft: 209
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -1449,7 +1265,7 @@ TotalScore: 40/100
 
 ---- www.mfu.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 109
+DaysLeft: 105
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -1472,7 +1288,7 @@ TotalScore: 15/100
 
 ---- www.wu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 83
+DaysLeft: 79
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -1481,7 +1297,7 @@ HTTP Security Headers : {
 HSTS: max-age=31536000; includeSubDomains; preload
 CSP: none
 X-Content-Type-Options: nosniff
-Set-Cookie Count: 3
+Set-Cookie Count: 5
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
@@ -1493,32 +1309,32 @@ XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 0/15
 TotalScore: 43/100
 
----- wu.ac.th ----
+---- www.wu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 83
+DaysLeft: 79
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: max-age=31536000; includeSubDomains; preload
 CSP: none
 X-Content-Type-Options: nosniff
-Set-Cookie Count: 3
+Set-Cookie Count: 5
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 3/5
-CertValidationScore: 10/20
+CertValidationScore: 0/20
 HSTSScore: 15/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 0/15
-TotalScore: 53/100
+TotalScore: 43/100
 
 ---- www.swu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 78
+DaysLeft: 74
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -1540,10 +1356,10 @@ CookieFlagsScore: 15/15
 TotalScore: 43/100
 
 ---- www.su.ac.th ----
-Protocol: -
-DaysLeft: -
+Protocol: TLSv1.3
+DaysLeft: 212
 SSL/TLS Certificate Validation : {
-HostnameMatch: False
+HostnameMatch: True
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -1553,41 +1369,18 @@ X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 10/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 15/100
-
----- pitc.su.ac.th ----
-Protocol: -
-DaysLeft: -
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
+TotalScore: 50/100
 
 ---- www.psu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 87
+DaysLeft: 83
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1610,7 +1403,7 @@ TotalScore: 68/100
 
 ---- www.dusit.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 163
+DaysLeft: 158
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1631,32 +1424,9 @@ XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 8/15
 TotalScore: 63/100
 
----- suphanburicampus.dusit.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 70
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 38/100
-
 ---- stin.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 319
+DaysLeft: 315
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1679,7 +1449,7 @@ TotalScore: 65/100
 
 ---- www.cdti.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 51
+DaysLeft: 47
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1702,7 +1472,7 @@ TotalScore: 48/100
 
 ---- www.kmitl.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 167
+DaysLeft: 162
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1725,7 +1495,7 @@ TotalScore: 63/100
 
 ---- nida.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 162
+DaysLeft: 158
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1748,7 +1518,7 @@ TotalScore: 58/100
 
 ---- www.rmutk.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 106
+DaysLeft: 101
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -1769,9 +1539,32 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
 TotalScore: 25/100
 
+---- www.rmutto.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 87
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
 ---- www.rmutt.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 120
+DaysLeft: 115
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1794,7 +1587,7 @@ TotalScore: 58/100
 
 ---- www.rmutp.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 119
+DaysLeft: 115
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1815,57 +1608,11 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 8/15
 TotalScore: 58/100
 
----- www.mutr.ac.th ----
-Protocol: -
-DaysLeft: -
+---- www.rmutr.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 223
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
-
----- www.rmutl.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 51
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: max-age=31536000;  includeSubDomains
-CSP: none
-X-Content-Type-Options: nosniff
-Set-Cookie Count: 2
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 15/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 5/5
-CookieFlagsScore: 0/15
-TotalScore: 33/100
-
----- rmutr.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 227
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
 ChainTrusted: True
 }
 HTTP Security Headers : {
@@ -1877,39 +1624,16 @@ Set-Cookie Count: 1
 ---- Scoring Criteria ----
 TLSScore: 10/20
 DaysLeftScore: 5/5
-CertValidationScore: 20/20
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
-TotalScore: 35/100
-
----- kkwcampus.rmutr.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 73
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 10/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 48/100
+TotalScore: 15/100
 
 ---- www.rmutl.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 51
+DaysLeft: 47
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -1932,7 +1656,7 @@ TotalScore: 33/100
 
 ---- www.rmutsv.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 71
+DaysLeft: 67
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1955,7 +1679,7 @@ TotalScore: 41/100
 
 ---- rmutsb.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 35
+DaysLeft: 31
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -1978,7 +1702,7 @@ TotalScore: 63/100
 
 ---- rmuti.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 131
+DaysLeft: 127
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2001,7 +1725,7 @@ TotalScore: 58/100
 
 ---- www.ru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 60
+DaysLeft: 56
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -2024,7 +1748,7 @@ TotalScore: 13/100
 
 ---- www.stou.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 106
+DaysLeft: 101
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2047,7 +1771,7 @@ TotalScore: 25/100
 
 ---- ksu.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 137
+DaysLeft: 133
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -2070,7 +1794,7 @@ TotalScore: 50/100
 
 ---- www.pnu.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 295
+DaysLeft: 291
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -2093,7 +1817,7 @@ TotalScore: 15/100
 
 ---- www.npu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 79
+DaysLeft: 75
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2114,101 +1838,9 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
 TotalScore: 23/100
 
----- dc.npu.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 79
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 28/100
-
----- tp.npu.ac.th ----
-Protocol: -
-DaysLeft: -
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
-
----- nawa.npu.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 79
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 38/100
-
----- sitc.npu.ac.th ----
-Protocol: -
-DaysLeft: -
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
-
 ---- www.nu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 81
+DaysLeft: 77
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2231,7 +1863,7 @@ TotalScore: 63/100
 
 ---- www.msu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 100
+DaysLeft: 96
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2254,7 +1886,7 @@ TotalScore: 38/100
 
 ---- www.ubru.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 198
+DaysLeft: 194
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -2277,7 +1909,7 @@ TotalScore: 35/100
 
 ---- www.pit.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 186
+DaysLeft: 182
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2300,7 +1932,7 @@ TotalScore: 40/100
 
 ---- www.iccs.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 59
+DaysLeft: 55
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2323,7 +1955,7 @@ TotalScore: 38/100
 
 ---- www.pcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 36
+DaysLeft: 32
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2346,7 +1978,7 @@ TotalScore: 41/100
 
 ---- www.takcc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 17
+DaysLeft: 13
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -2369,14 +2001,14 @@ TotalScore: 46/100
 
 ---- sites.google.com ----
 Protocol: TLSv1.3
-DaysLeft: 55
+DaysLeft: 51
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: max-age=31536000; includeSubDomains
-CSP: script-src 'nonce-BXdX89AzTAk05q41CtI6_Q' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+CSP: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 4
 }
@@ -2385,14 +2017,14 @@ TLSScore: 20/20
 DaysLeftScore: 3/5
 CertValidationScore: 0/20
 HSTSScore: 15/15
-CSPScore: 12/20
+CSPScore: 5/20
 XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 0/15
-TotalScore: 55/100
+TotalScore: 48/100
 
 ---- mukcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 80
+DaysLeft: 75
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2415,7 +2047,7 @@ TotalScore: 48/100
 
 ---- nbcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 255
+DaysLeft: 251
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2438,7 +2070,7 @@ TotalScore: 50/100
 
 ---- www.skcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 32
+DaysLeft: 87
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2461,7 +2093,7 @@ TotalScore: 33/100
 
 ---- www.uthaicc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 30
+DaysLeft: 86
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2482,32 +2114,32 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 48/100
 
----- rncc.ac.th ----
+---- www.rncc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 33
+DaysLeft: 88
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
 }
 HTTP Security Headers : {
-HSTS: max-age=31536000; includeSubdomains;
-CSP: default-src https: ws: data: 'unsafe-inline' 'unsafe-eval';
-X-Content-Type-Options: nosniff
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
 TLSScore: 10/20
 DaysLeftScore: 3/5
 CertValidationScore: 20/20
-HSTSScore: 15/15
-CSPScore: 5/20
-XContentTypeOptionsScore: 5/5
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 73/100
+TotalScore: 48/100
 
 ---- www.ncc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 56
+DaysLeft: 52
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2530,7 +2162,7 @@ TotalScore: 38/100
 
 ---- www.ycc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 225
+DaysLeft: 221
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2576,7 +2208,7 @@ TotalScore: 25/100
 
 ---- www.stcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 32
+DaysLeft: 28
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2585,21 +2217,21 @@ HTTP Security Headers : {
 HSTS: none
 CSP: none
 X-Content-Type-Options: none
-Set-Cookie Count: 0
+Set-Cookie Count: 1
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
-DaysLeftScore: 3/5
+DaysLeftScore: 1/5
 CertValidationScore: 10/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 48/100
+CookieFlagsScore: 8/15
+TotalScore: 39/100
 
 ---- smkcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 32
+DaysLeft: 28
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2612,17 +2244,17 @@ Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
-DaysLeftScore: 3/5
+DaysLeftScore: 1/5
 CertValidationScore: 10/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 48/100
+TotalScore: 46/100
 
 ---- www.yasocc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 243
+DaysLeft: 239
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -2643,11 +2275,11 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 50/100
 
----- pngcc.ac.th ----
+---- www.pngcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 53
+DaysLeft: 49
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -2659,18 +2291,18 @@ Set-Cookie Count: 0
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 3/5
-CertValidationScore: 10/20
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 48/100
+TotalScore: 38/100
 
----- tratcc.ac.th ----
+---- www.tratcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 59
+DaysLeft: 55
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -2682,16 +2314,16 @@ Set-Cookie Count: 1
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 3/5
-CertValidationScore: 10/20
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 8/15
-TotalScore: 41/100
+TotalScore: 31/100
 
 ---- phrcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 192
+DaysLeft: 188
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2712,28 +2344,28 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
 TotalScore: 35/100
 
----- sk-cc.ac.th ----
+---- www.sk-cc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 59
+DaysLeft: 55
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
 }
 HTTP Security Headers : {
-HSTS: max-age=31536000; includeSubdomains;
-CSP: default-src https: ws: data: 'unsafe-inline' 'unsafe-eval';
-X-Content-Type-Options: nosniff
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
 TLSScore: 10/20
 DaysLeftScore: 3/5
 CertValidationScore: 20/20
-HSTSScore: 15/15
-CSPScore: 5/20
-XContentTypeOptionsScore: 5/5
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 73/100
+TotalScore: 48/100
 
 ---- www.nancc.ac.th ----
 Protocol: -
@@ -2760,14 +2392,14 @@ TotalScore: 15/100
 
 ---- www.sktcc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 63
+DaysLeft: 59
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: none
-CSP: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'nonce-_b2hyMT2mcWULuwbbiW-XA' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
+CSP: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'nonce-Velho6BOk32A91A_TBIFjQ' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 0
 }
@@ -2783,7 +2415,7 @@ TotalScore: 65/100
 
 ---- mcc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 44
+DaysLeft: 40
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -2792,7 +2424,7 @@ HTTP Security Headers : {
 HSTS: none
 CSP: none
 X-Content-Type-Options: none
-Set-Cookie Count: 1
+Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
 TLSScore: 10/20
@@ -2801,8 +2433,8 @@ CertValidationScore: 20/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 0/15
-TotalScore: 33/100
+CookieFlagsScore: 15/15
+TotalScore: 48/100
 
 ---- www.bcn.ac.th ----
 Protocol: -
@@ -2829,14 +2461,14 @@ TotalScore: 15/100
 
 ---- sites.google.com ----
 Protocol: TLSv1.3
-DaysLeft: 55
+DaysLeft: 51
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: max-age=31536000; includeSubDomains
-CSP: script-src 'nonce--RupNnLIoOUFEeDx90W-Zg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+CSP: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 4
 }
@@ -2845,14 +2477,14 @@ TLSScore: 20/20
 DaysLeftScore: 3/5
 CertValidationScore: 0/20
 HSTSScore: 15/15
-CSPScore: 12/20
+CSPScore: 5/20
 XContentTypeOptionsScore: 5/5
 CookieFlagsScore: 0/15
-TotalScore: 55/100
+TotalScore: 48/100
 
 ---- bcnb.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 79
+DaysLeft: 75
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -2896,11 +2528,11 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 25/100
 
----- web.pnc.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 347
+---- www.pnc.ac.th ----
+Protocol: -
+DaysLeft: -
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -2910,18 +2542,18 @@ X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 5/5
-CertValidationScore: 10/20
+TLSScore: 0/20
+DaysLeftScore: 0/5
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 50/100
+TotalScore: 15/100
 
 ---- www.bcnsk.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 65
+DaysLeft: 60
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -2942,7 +2574,7 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 38/100
 
----- bcnsprnw.aos.in.th ----
+---- www.bcnsprnw.ac.th ----
 Protocol: -
 DaysLeft: -
 SSL/TLS Certificate Validation : {
@@ -2990,7 +2622,7 @@ TotalScore: 15/100
 
 ---- www.bcns.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 43
+DaysLeft: 38
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3057,12 +2689,12 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 15/100
 
----- 202.129.54.82 ----
-Protocol: -
-DaysLeft: -
+---- www.smnc.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: expired
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
-ChainTrusted: False
+ChainTrusted: True
 }
 HTTP Security Headers : {
 HSTS: none
@@ -3071,20 +2703,20 @@ X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
-TLSScore: 0/20
+TLSScore: 10/20
 DaysLeftScore: 0/5
 CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 15/100
+TotalScore: 25/100
 
----- unc.ac.th ----
+---- www.unc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 77
+DaysLeft: 72
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -3096,16 +2728,16 @@ Set-Cookie Count: 1
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 3/5
-CertValidationScore: 10/20
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
-TotalScore: 33/100
+TotalScore: 23/100
 
 ---- sites.google.com ----
 Protocol: TLSv1.3
-DaysLeft: 55
+DaysLeft: 51
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3128,7 +2760,7 @@ TotalScore: 48/100
 
 ---- www.pckpb.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 74
+DaysLeft: 69
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3151,7 +2783,7 @@ TotalScore: 38/100
 
 ---- www.bcnt.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 68
+DaysLeft: 63
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3174,7 +2806,7 @@ TotalScore: 41/100
 
 ---- www.bcnu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 52
+DaysLeft: 48
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3220,7 +2852,7 @@ TotalScore: 15/100
 
 ---- www.bcnpy.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 44
+DaysLeft: 40
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3243,7 +2875,7 @@ TotalScore: 38/100
 
 ---- www.bcnpb.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 52
+DaysLeft: 48
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3266,7 +2898,7 @@ TotalScore: 38/100
 
 ---- www.bcnnakhon.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 60
+DaysLeft: 56
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3312,7 +2944,7 @@ TotalScore: 15/100
 
 ---- www.snc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 78
+DaysLeft: 74
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -3335,7 +2967,7 @@ TotalScore: 28/100
 
 ---- www.bcnc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 42
+DaysLeft: 37
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3358,7 +2990,7 @@ TotalScore: 38/100
 
 ---- www.ckr.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 70
+DaysLeft: 65
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3381,14 +3013,14 @@ TotalScore: 38/100
 
 ---- www.bcnyala.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 71
+DaysLeft: 67
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: none
-CSP: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'nonce-xUZBWb_KYs5TgcEh-a6_dA' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
+CSP: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'nonce-Rav8gMVCQlHBvzCgrRf9_A' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 0
 }
@@ -3404,7 +3036,7 @@ TotalScore: 65/100
 
 ---- www2.bcnkk.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 76
+DaysLeft: 71
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3427,14 +3059,14 @@ TotalScore: 23/100
 
 ---- www.bcnnv.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 34
+DaysLeft: 89
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
 }
 HTTP Security Headers : {
 HSTS: none
-CSP: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'nonce-fU4L-NrnMGzMJIttM66Mqg' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
+CSP: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'nonce-iO_vMnOW8g2fbGvFfgb71w' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
 X-Content-Type-Options: nosniff
 Set-Cookie Count: 0
 }
@@ -3450,7 +3082,7 @@ TotalScore: 65/100
 
 ---- webs.bcnsurin.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 54
+DaysLeft: 49
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3473,7 +3105,7 @@ TotalScore: 38/100
 
 ---- www.bcnph.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 37
+DaysLeft: 33
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3496,7 +3128,7 @@ TotalScore: 41/100
 
 ---- www.scphc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 303
+DaysLeft: 299
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3519,7 +3151,7 @@ TotalScore: 40/100
 
 ---- www.scphkk.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 84
+DaysLeft: 80
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -3540,11 +3172,11 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 28/100
 
----- yala.ac.th ----
+---- www.yala.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 74
+DaysLeft: 69
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -3556,16 +3188,39 @@ Set-Cookie Count: 0
 ---- Scoring Criteria ----
 TLSScore: 20/20
 DaysLeftScore: 3/5
-CertValidationScore: 10/20
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 48/100
+TotalScore: 38/100
 
 ---- www.scphpl.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 85
+DaysLeft: 81
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=15552000; includeSubDomains; preload
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 15/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 8/15
+TotalScore: 61/100
+
+---- www.bcnt.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 63
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3574,7 +3229,7 @@ HTTP Security Headers : {
 HSTS: none
 CSP: none
 X-Content-Type-Options: none
-Set-Cookie Count: 2
+Set-Cookie Count: 1
 }
 ---- Scoring Criteria ----
 TLSScore: 20/20
@@ -3586,32 +3241,9 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 8/15
 TotalScore: 41/100
 
----- scphtrang.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 56
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 10/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 48/100
-
 ---- scphub.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 66
+DaysLeft: 62
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3634,7 +3266,7 @@ TotalScore: 48/100
 
 ---- www.phcsuphan.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 248
+DaysLeft: 244
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3657,7 +3289,7 @@ TotalScore: 40/100
 
 ---- www.kmpht.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 51
+DaysLeft: 46
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -3680,7 +3312,7 @@ TotalScore: 33/100
 
 ---- www.acttm.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 68
+DaysLeft: 63
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3703,7 +3335,7 @@ TotalScore: 38/100
 
 ---- pi.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 84
+DaysLeft: 80
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3726,7 +3358,7 @@ TotalScore: 33/100
 
 ---- www.bpi.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 123
+DaysLeft: 118
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3749,7 +3381,7 @@ TotalScore: 50/100
 
 ---- cfa.bpi.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 170
+DaysLeft: 166
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -3772,7 +3404,7 @@ TotalScore: 40/100
 
 ---- cfasp.bpi.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 170
+DaysLeft: 166
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -3795,7 +3427,7 @@ TotalScore: 40/100
 
 ---- cfans.bpi.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 170
+DaysLeft: 166
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -3818,7 +3450,7 @@ TotalScore: 40/100
 
 ---- rpca.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 67
+DaysLeft: 63
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -3841,7 +3473,7 @@ TotalScore: 46/100
 
 ---- www.crma.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 87
+DaysLeft: 83
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -3861,125 +3493,10 @@ CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 38/100
-
----- www.rtna.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 318
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: max-age=63072000
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 5/5
-CertValidationScore: 0/20
-HSTSScore: 15/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 55/100
-
----- nkrafa.ac.th ----
-Protocol: -
-DaysLeft: -
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
-
----- www.cgsc.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 77
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 38/100
-
----- www.rtncn.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 47
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 38/100
-
----- rtanc.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 76
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 10/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 48/100
 
 ---- www.irricollege.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 98
+DaysLeft: 94
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4000,124 +3517,9 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 50/100
 
----- nursepolice.go.th ----
-Protocol: TLSv1.3
-DaysLeft: 42
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 10/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 48/100
-
----- nkrafa.rtaf.mi.th ----
-Protocol: TLSv1.3
-DaysLeft: 229
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: max-age=63072000;includeSubDomains; preload
-CSP: none
-X-Content-Type-Options: nosniff
-Set-Cookie Count: 2
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 5/5
-CertValidationScore: 0/20
-HSTSScore: 15/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 5/5
-CookieFlagsScore: 0/15
-TotalScore: 45/100
-
----- www.pcm.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 67
-SSL/TLS Certificate Validation : {
-HostnameMatch: True
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 4
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 10/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 8/15
-TotalScore: 41/100
-
----- www.mmtc.ac.th ----
-Protocol: TLSv1.2
-DaysLeft: 335
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: True
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 2
-}
----- Scoring Criteria ----
-TLSScore: 10/20
-DaysLeftScore: 5/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 0/15
-TotalScore: 15/100
-
----- www.catc.or.th ----
-Protocol: TLSv1.3
-DaysLeft: 186
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 5
-}
----- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 5/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 0/15
-TotalScore: 25/100
-
 ---- www.cra.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 85
+DaysLeft: 81
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4140,7 +3542,7 @@ TotalScore: 23/100
 
 ---- www.pccms.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 85
+DaysLeft: 81
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4163,7 +3565,7 @@ TotalScore: 38/100
 
 ---- www.pi.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 84
+DaysLeft: 80
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4186,7 +3588,7 @@ TotalScore: 23/100
 
 ---- www.cra.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 85
+DaysLeft: 81
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4209,7 +3611,7 @@ TotalScore: 23/100
 
 ---- www.tnsucbi.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 59
+DaysLeft: 55
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4232,7 +3634,7 @@ TotalScore: 48/100
 
 ---- www.tnsucbi.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 59
+DaysLeft: 55
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4277,10 +3679,10 @@ CookieFlagsScore: 15/15
 TotalScore: 15/100
 
 ---- www.tnsumk.ac.th ----
-Protocol: TLSv1.3
-DaysLeft: 41
+Protocol: -
+DaysLeft: -
 SSL/TLS Certificate Validation : {
-HostnameMatch: True
+HostnameMatch: False
 ChainTrusted: False
 }
 HTTP Security Headers : {
@@ -4290,14 +3692,14 @@ X-Content-Type-Options: none
 Set-Cookie Count: 0
 }
 ---- Scoring Criteria ----
-TLSScore: 20/20
-DaysLeftScore: 3/5
-CertValidationScore: 10/20
+TLSScore: 0/20
+DaysLeftScore: 0/5
+CertValidationScore: 0/20
 HSTSScore: 0/15
 CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
-TotalScore: 48/100
+TotalScore: 15/100
 
 ---- www.ipelp.ac.th ----
 Protocol: -
@@ -4324,7 +3726,7 @@ TotalScore: 15/100
 
 ---- tnsuskn.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 63
+DaysLeft: 88
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -4345,7 +3747,7 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 48/100
 
----- tnsuspb.ac.th ----
+---- www.tnsuspb.ac.th ----
 Protocol: -
 DaysLeft: -
 SSL/TLS Certificate Validation : {
@@ -4370,7 +3772,7 @@ TotalScore: 15/100
 
 ---- www.tnsuudn.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 55
+DaysLeft: 51
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4416,7 +3818,7 @@ TotalScore: 15/100
 
 ---- www.tnsuc.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 30
+DaysLeft: 86
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4462,7 +3864,7 @@ TotalScore: 15/100
 
 ---- www.tnsupnb.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 37
+DaysLeft: 33
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4483,7 +3885,7 @@ XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 48/100
 
----- 113.53.231.83 ----
+---- www.tnsuyla.ac.th ----
 Protocol: -
 DaysLeft: -
 SSL/TLS Certificate Validation : {
@@ -4531,7 +3933,7 @@ TotalScore: 15/100
 
 ---- www.tnsusti.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 56
+DaysLeft: 52
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4600,7 +4002,7 @@ TotalScore: 15/100
 
 ---- www.bu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 48
+DaysLeft: 44
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4623,7 +4025,7 @@ TotalScore: 23/100
 
 ---- www.bkkthon.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 115
+DaysLeft: 111
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -4646,7 +4048,7 @@ TotalScore: 50/100
 
 ---- www.bsu.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 349
+DaysLeft: 345
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -4669,7 +4071,7 @@ TotalScore: 30/100
 
 ---- www.umt.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 32
+DaysLeft: 87
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4692,7 +4094,7 @@ TotalScore: 38/100
 
 ---- www.krirk.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 87
+DaysLeft: 83
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4715,7 +4117,7 @@ TotalScore: 48/100
 
 ---- www.kbu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 67
+DaysLeft: 63
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4738,7 +4140,7 @@ TotalScore: 38/100
 
 ---- www.christian.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 69
+DaysLeft: 65
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4761,7 +4163,7 @@ TotalScore: 38/100
 
 ---- www.cpu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 57
+DaysLeft: 53
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4807,7 +4209,7 @@ TotalScore: 15/100
 
 ---- www.cmc.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 76
+DaysLeft: 72
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -4827,52 +4229,6 @@ CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 15/15
 TotalScore: 48/100
-
----- www.pbn.cmc.ac.th ----
-Protocol: -
-DaysLeft: -
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
-
----- www.br.cmc.ac.th ----
-Protocol: -
-DaysLeft: -
-SSL/TLS Certificate Validation : {
-HostnameMatch: False
-ChainTrusted: False
-}
-HTTP Security Headers : {
-HSTS: none
-CSP: none
-X-Content-Type-Options: none
-Set-Cookie Count: 0
-}
----- Scoring Criteria ----
-TLSScore: 0/20
-DaysLeftScore: 0/5
-CertValidationScore: 0/20
-HSTSScore: 0/15
-CSPScore: 0/20
-XContentTypeOptionsScore: 0/5
-CookieFlagsScore: 15/15
-TotalScore: 15/100
 
 ---- www.cmcsk.ac.th ----
 Protocol: -
@@ -4899,7 +4255,7 @@ TotalScore: 15/100
 
 ---- www.dpu.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 133
+DaysLeft: 129
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4922,7 +4278,7 @@ TotalScore: 38/100
 
 ---- www.northbkk.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 35
+DaysLeft: 31
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: True
@@ -4945,7 +4301,7 @@ TotalScore: 63/100
 
 ---- www.northcm.ac.th ----
 Protocol: TLSv1.3
-DaysLeft: 114
+DaysLeft: 110
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -4968,7 +4324,7 @@ TotalScore: 25/100
 
 ---- www.stamford.edu ----
 Protocol: TLSv1.3
-DaysLeft: 72
+DaysLeft: 67
 SSL/TLS Certificate Validation : {
 HostnameMatch: True
 ChainTrusted: False
@@ -4991,7 +4347,7 @@ TotalScore: 48/100
 
 ---- www.apiu.edu ----
 Protocol: TLSv1.3
-DaysLeft: 60
+DaysLeft: 56
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: False
@@ -5014,7 +4370,7 @@ TotalScore: 63/100
 
 ---- www.nation.ac.th ----
 Protocol: TLSv1.2
-DaysLeft: 106
+DaysLeft: 102
 SSL/TLS Certificate Validation : {
 HostnameMatch: False
 ChainTrusted: True
@@ -5034,4 +4390,1154 @@ CSPScore: 0/20
 XContentTypeOptionsScore: 0/5
 CookieFlagsScore: 0/15
 TotalScore: 15/100
+
+---- www.ptu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 36
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.payap.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 87
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=31536000
+CSP: upgrade-insecure-requests;
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 4
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 15/15
+CSPScore: 5/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 0/15
+TotalScore: 48/100
+
+---- www.plu.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 60
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: max-age=31536000
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 2
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 15/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 0/15
+TotalScore: 33/100
+
+---- ftu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 75
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.feu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 98
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 40/100
+
+---- www.tuct.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 36
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.neu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 74
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.rsu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 84
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.rbac.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 41
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 28/100
+
+---- www.rtu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 79
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 33/100
+
+---- www.rpu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 64
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.vu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 129
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 40/100
+
+---- www.western.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 87
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=7889238
+CSP: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 5
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 10/15
+CSPScore: 5/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 0/15
+TotalScore: 53/100
+
+---- www.spu.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 220
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 15/15
+TotalScore: 35/100
+
+---- www.siam.edu ----
+Protocol: TLSv1.2
+DaysLeft: 30
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 3/5
+CertValidationScore: 20/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.utcc.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 294
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=63072000; includeSubDomains; preload
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 15/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 55/100
+
+---- www.hcu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 358
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 25/100
+
+---- www.hcu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 358
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 25/100
+
+---- www.au.edu ----
+Protocol: TLSv1.3
+DaysLeft: 382
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: default-src 'self' https://*.au.edu; script-src 'self' 'unsafe-inline' https://*.au.edu https://maps.googleapis.com https://maps.gstatic.com https://maps.google.com https://www.googletagmanager.com https://www.google-analytics.com https://*.adobe.com blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https://s.w.org https://drive.google.com https://lh3.googleusercontent.com https://maps.gstatic.com https://maps.googleapis.com https://www.googletagmanager.com https://*.au.edu data:; frame-src 'self' https://www.youtube.com https://drive.google.com https://maps.google.com https://www.google.com https://*.google.com; connect-src 'self' https://www.google-analytics.com; object-src 'none'; base-uri 'self'; form-action 'self';worker-src 'self' blob:;
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 12/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 15/15
+TotalScore: 57/100
+
+---- www.eastern-asia.space ----
+Protocol: TLSv1.3
+DaysLeft: 83
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=86400
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 10/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 0/15
+TotalScore: 48/100
+
+---- www.sau.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 251
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 30/100
+
+---- www.southeast.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 56
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.stic.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 27
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 1/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 46/100
+
+---- www.crc.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 46
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 29
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 33/100
+
+---- www.slc.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 301
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 40/100
+
+---- dtc.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 47
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 2
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 33/100
+
+---- www.thongsook.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 41
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.phanomwan.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 70
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 33/100
+
+---- www.sct.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 323
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 30/100
+
+---- siamtechno.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 40
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.nmc.ac.th ----
+Protocol: -
+DaysLeft: -
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 0/20
+DaysLeftScore: 0/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 15/100
+
+---- northern.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 68
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- rafflesinternationalcollege.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 37
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.cas.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 44
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 3/5
+CertValidationScore: 20/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- academicpcbu.wixsite.com ----
+Protocol: TLSv1.3
+DaysLeft: 66
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 15/15
+TotalScore: 43/100
+
+---- ibc.ac.th ----
+Protocol: TLSv1.2
+DaysLeft: 40
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: True
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 10/20
+DaysLeftScore: 3/5
+CertValidationScore: 20/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.stu.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 55
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=31536000
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 15/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 63/100
+
+---- www.saengtham.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 52
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 15/15
+TotalScore: 53/100
+
+---- lit.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 55
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.kantana.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 62
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.life.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 50
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.tni.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 239
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 3
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 0/15
+TotalScore: 25/100
+
+---- svit.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 69
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 48/100
+
+---- www.iesa.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 88
+SSL/TLS Certificate Validation : {
+HostnameMatch: True
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=86400
+CSP: none
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 1
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 10/20
+HSTSScore: 10/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 0/15
+TotalScore: 48/100
+
+---- www.rajapark.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 88
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.vistec.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 270
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 5/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 40/100
+
+---- www.ipacific.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 80
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.arsomsilp.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 58
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: none
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 0/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 38/100
+
+---- www.pim.ac.th ----
+Protocol: TLSv1.3
+DaysLeft: 84
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=31536000; includeSubDomains; preload
+CSP: script-src 'self' 'unsafe-inline' https://connect.facebook.net https://www.googletagmanager.com https://ajax.googleapis.com https://code.jquery.com https://www.google-analytics.com https://analytics.google.com; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; img-src 'self' data: https://www.google.co.th https://www.googletagmanager.com https://secure.gravatar.com https://ps.w.org https://s.w.org https://templates.us-themes.com https://www.google-analytics.com https://www.facebook.com https://stats.g.doubleclick.net; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com; frame-src https://www.google.com https://docs.google.com https://forms.gle https://www.googletagmanager.com https://www.youtube.com https://www.facebook.com https://www.pim.ac.th; object-src 'none'; connect-src https://www.facebook.com https://www.google.com https://analytics.google.com https://web.facebook.com https://www.google-analytics.com https://www.pim.ac.th https://stats.g.doubleclick.net; worker-src blob: https://www.pim.ac.th; frame-ancestors 'self' https://www.pim.ac.th https://eec.pim.ac.th https://docs.google.com; form-action 'self' https://forms.gle; upgrade-insecure-requests; base-uri https://proxy.link.app;
+X-Content-Type-Options: nosniff
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 15/15
+CSPScore: 12/20
+XContentTypeOptionsScore: 5/5
+CookieFlagsScore: 15/15
+TotalScore: 70/100
+
+---- www.cri.or.th ----
+Protocol: TLSv1.3
+DaysLeft: 77
+SSL/TLS Certificate Validation : {
+HostnameMatch: False
+ChainTrusted: False
+}
+HTTP Security Headers : {
+HSTS: max-age=31536000;
+CSP: none
+X-Content-Type-Options: none
+Set-Cookie Count: 0
+}
+---- Scoring Criteria ----
+TLSScore: 20/20
+DaysLeftScore: 3/5
+CertValidationScore: 0/20
+HSTSScore: 15/15
+CSPScore: 0/20
+XContentTypeOptionsScore: 0/5
+CookieFlagsScore: 15/15
+TotalScore: 53/100
 
