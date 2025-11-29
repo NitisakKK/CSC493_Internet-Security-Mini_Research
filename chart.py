@@ -3,7 +3,7 @@ import re
 import matplotlib.pyplot as plt
 
 INPUT = "output.txt"
-OUTPUT = "total_score_by_Public.png" # ใส่ชื่อ output
+OUTPUT = "total_score_by_ratchapat.png" # ใส่ชื่อ output
 TOPN = None  # ตั้งเป็น 20 ถ้าอยากโชว์เฉพาะ Top 20
 
 with open(INPUT, "r", encoding="utf-8", errors="replace") as f:
@@ -35,7 +35,7 @@ plt.bar(xpos, scores)
 plt.ylim(0, 100)
 plt.ylabel("Score")
 plt.xlabel("Domain Name")
-plt.title("Public University")
+plt.title("Ratchapat University")
 
 # ตั้งชื่อโดเมนเป็น tick labels + หมุน
 plt.xticks(list(xpos), domains, rotation=45, ha="right")
