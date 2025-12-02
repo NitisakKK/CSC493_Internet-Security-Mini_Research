@@ -3,7 +3,7 @@ import re, math
 import matplotlib.pyplot as plt
 
 INPUT  = "output.txt"
-OUTPUT = "total_score_all_public.png"
+OUTPUT = "total_score_all_Rajamangala.png"
 
 # ปรับได้ตามใจ
 STRIP_WWW  = True   # ตัด 'www.' ออกเพื่อให้สั้นลง
@@ -47,7 +47,7 @@ ax.margins(x=0.02, y=0)                # ปิด vertical padding
 ax.set_xlim(0, 100)
 ax.set_xlabel("Score (0–100)")
 ax.set_ylabel("Domain")
-ax.set_title("Public University Domain")
+ax.set_title("Rajamangala University Domain")
 
 ax.set_yticks(list(y))
 ax.set_yticklabels(labels, fontsize=FONT)

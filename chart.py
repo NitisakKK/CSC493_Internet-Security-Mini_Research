@@ -1,15 +1,16 @@
 # plot_total_score_fixed.py
 import re
+import numpy as np
 import matplotlib.pyplot as plt
 
-INPUT = "output.txt"
-OUTPUT = "total_score_by_ratchapat.png" # ใส่ชื่อ output
-TOPN = None  # ตั้งเป็น 20 ถ้าอยากโชว์เฉพาะ Top 20
+INPUT  = "output.txt"
+OUTPUT = "total_score_by_3k.png"
+TOPN   = None  # เช่น 20 ถ้าต้องการเฉพาะ Top 20
 
 with open(INPUT, "r", encoding="utf-8", errors="replace") as f:
     raw = f.read()
 
-# ดึงโดเมน+คะแนนจากบล็อกเดียวกัน (ทนทานกว่าแยกค้นทีละบรรทัด)
+# ดึงโดเมน+คะแนนจากบล็อกเดียวกัน
 pattern = r"^----\s+(.+?)\s+----[\s\S]*?^TotalScore:\s*([0-9]+)\s*/\s*100"
 matches = re.findall(pattern, raw, flags=re.M)
 
@@ -24,32 +25,45 @@ if TOPN:
 
 domains = [d for d, _ in rows]
 scores  = [s for _, s in rows]
+n = len(domains)
 
-# ขนาดรูปปรับตามจำนวนโดเมน เพื่อให้ label ไม่ทับกัน/ไม่โดนตัด
-fig_w = max(8, min(0.6 * len(domains) + 2, 40))  # จำกัดกว้างสุด 40 นิ้ว
-plt.figure(figsize=(fig_w, 6))
+# ขนาดรูปปรับตามจำนวนโดเมน
+fig_w = max(8, min(0.6 * n + 2, 40))  # จำกัดกว้างสุด 40 นิ้ว
 
-# ใช้ตำแหน่งตัวเลขแล้วตั้ง tick label เอง (กันหาย)
-xpos = range(len(domains))
-plt.bar(xpos, scores)
-plt.ylim(0, 100)
-plt.ylabel("Score")
-plt.xlabel("Domain Name")
-plt.title("Ratchapat University")
+fig, ax = plt.subplots(figsize=(fig_w, 6))
 
-# ตั้งชื่อโดเมนเป็น tick labels + หมุน
-plt.xticks(list(xpos), domains, rotation=45, ha="right")
+# ------------------ จุดสำคัญเรื่องเว้นระยะและระยะห่าง ------------------
+x = np.arange(n, dtype=float)  # ศูนย์แท่งที่ 0..n-1
+bar_width = 0.82               # ช่องว่างระหว่างแท่ง = 1 - bar_width  (เช่น 0.18)
+left_margin_bars  = 1.0        # เว้นซ้าย ~ เท่า 'หนึ่งแท่ง'
+right_margin_bars = 0.30       # เว้นขวานิดหน่อยให้สมดุล
 
-# เส้นกริดแนวนอนอ่านง่าย
-plt.grid(axis="y", linestyle="--", alpha=0.3)
+bars = ax.bar(x, scores, width=bar_width)
 
-# ตัวเลขบนแท่ง
-for i, v in enumerate(scores):
-    plt.text(i, v + 1, f"{v}", ha="center", va="bottom", fontsize=9)
+# ปิด auto padding แล้วกำหนดขอบเอง
+ax.margins(x=0)
+ax.set_xlim(-left_margin_bars, (n - 1) + right_margin_bars)
+# -------------------------------------------------------------------------
 
-# กัน label โดนตัดขอบล่าง
+ax.set_ylim(0, 100)
+ax.set_ylabel("Score")
+ax.set_xlabel("Domain Name")
+ax.set_title("KMUTT vs KMITL vs KMUTNB")
+
+# ตั้ง tick และป้ายโดเมน (ตัวอักษรตรง ไม่เอียง)
+ax.set_xticks(x)
+ax.set_xticklabels(domains, rotation=90, ha="right", rotation_mode="anchor")
+
+# เส้นกริดแนวนอนให้อ่านง่าย
+ax.grid(axis="y", linestyle="--", alpha=0.30)
+
+# แสดงตัวเลขบนแท่ง
+for xi, v in zip(x, scores):
+    ax.text(xi, v + 1, f"{v}", ha="center", va="bottom", fontsize=9)
+
+# กันป้ายด้านล่างโดนตัด และเผื่อสำหรับ label ยาว ๆ
 plt.tight_layout()
-plt.gcf().subplots_adjust(bottom=0.28)
+fig.subplots_adjust(bottom=0.28)
 
 plt.savefig(OUTPUT, dpi=150)
 plt.show()

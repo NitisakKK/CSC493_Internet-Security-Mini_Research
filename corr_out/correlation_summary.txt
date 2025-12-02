@@ -1,0 +1,5 @@
+[SKIP] 'sucuri' not in CSV
+
+[SKIP] 'pentest' not in CSV
+
+Mozilla: n=100, Pearson=0.5897, Spearman=0.5519, R^2=0.3478, line: y = 0.7887x + -8.8651 -> corr_out/scatter_tuwss_vs_mozilla.png
